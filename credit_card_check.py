@@ -50,7 +50,5 @@ def test_validate_credit_cards():
     assert is_valid_credit_card("5123 - 3567 - 8912 - 3456") == False
     assert is_valid_credit_card("4444444444444444") == False
     assert is_valid_credit_card("412345678912345") == False
-    print("All test cases pass")
-
 # Test cases
 test_validate_credit_cards()
